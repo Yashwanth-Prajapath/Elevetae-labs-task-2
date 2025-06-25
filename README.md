@@ -6,19 +6,19 @@ This repository documents a phishing email analysis conducted as part of a cyber
 
 ---
 
-## 📌 Objective
+##  Objective
 
 To analyze a suspicious email and identify signs of phishing by examining email headers, sender spoofing, links, attachments, and authentication mechanisms.
 
 ---
 
-## 📨 Sample Phishing Email
+##  Sample Phishing Email
 
-### ⚠️ Email Details:
+### ⚠ Email Details:
 - **From:** `security-update@micros0ft-support.com`
 - **To:** `victim@example.com`
 
-### 🕵️‍♂️ Observations:
+###  Observations:
 - The sender uses **typosquatting** — `"micros0ft"` instead of `"microsoft"` (uses zero `0` instead of letter `o`).
 - The domain name is **not** owned or operated by Microsoft.
 - Email appears to be impersonating Microsoft support.
@@ -27,12 +27,12 @@ To analyze a suspicious email and identify signs of phishing by examining email 
 
 ---
 
-## 🧪 Email Header Analysis (MXToolbox)
+##  Email Header Analysis (MXToolbox)
 
 ### 🔧 Tool Used:
 - [MXToolbox Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx)
 
-### 📋 Results Summary:
+###  Results Summary:
 - **SPF / DKIM:** No records found → sender is **unauthenticated**.
 - **Relay Delay:** 0 seconds (insignificant for trust assessment).
 - **Spoofed From Address:** `security-update@micros0ft-support.com`
@@ -40,7 +40,7 @@ To analyze a suspicious email and identify signs of phishing by examining email 
 
 ---
 
-## 🖼️ Full Email Body (Visual Reference)
+## 🖼Full Email Body (Visual Reference)
 
 To maintain formatting integrity, the phishing email body is provided below as an image:
 
@@ -48,27 +48,27 @@ To maintain formatting integrity, the phishing email body is provided below as a
 
 ---
 
-## ✅ Phishing Indicators Found
+## Phishing Indicators Found
 
 | Indicator Type              | Description |
 |-----------------------------|-------------|
-| 🚩 **Typosquatted Domain**     | `micros0ft-support.com` mimics Microsoft |
-| 📭 **Spoofed Sender**          | Impersonates Microsoft support |
-| ❌ **No SPF/DKIM Auth**        | Cannot verify sender authenticity |
-| 🌐 **Mismatched Domain**       | Domain name doesn’t belong to Microsoft |
-| 🔗 **Suspicious Link**         | Likely redirects to phishing or credential harvesting page |
-| 📎 **Potential Attachment**    | Possible malware in attached file (e.g., disguised executable) |
-| ⚠️ **Urgent Language (Implied)** | Phishing often uses urgent tone to provoke action |
+|  **Typosquatted Domain**     | `micros0ft-support.com` mimics Microsoft |
+|  **Spoofed Sender**          | Impersonates Microsoft support |
+|  **No SPF/DKIM Auth**        | Cannot verify sender authenticity |
+|  **Mismatched Domain**       | Domain name doesn’t belong to Microsoft |
+|  **Suspicious Link**         | Likely redirects to phishing or credential harvesting page |
+|  **Potential Attachment**    | Possible malware in attached file (e.g., disguised executable) |
+|  **Urgent Language (Implied)** | Phishing often uses urgent tone to provoke action |
 
 ---
 
-## 📎 Conclusion
+## Conclusion
 
 This email exhibits **classic phishing traits**, including spoofed domains, suspicious sender details, likely malicious links/attachments, and lack of proper authentication (SPF/DKIM). Such emails are designed to steal credentials or install malware and should be reported and deleted immediately.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Darsh Chatrani**  
 🔗 [LinkedIn](https://www.linkedin.com/in/yashwanth-prajapath-90a065303/)  
