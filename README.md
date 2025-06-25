@@ -14,7 +14,7 @@ To analyze a suspicious email and identify signs of phishing by examining email 
 
 ##  Sample Phishing Email
 
-### ⚠ Email Details:
+###  Email Details:
 - **From:** `security-update@micros0ft-support.com`
 - **To:** `victim@example.com`
 
@@ -29,7 +29,7 @@ To analyze a suspicious email and identify signs of phishing by examining email 
 
 ##  Email Header Analysis (MXToolbox)
 
-### 🔧 Tool Used:
+### Tool Used:
 - [MXToolbox Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx)
 
 ###  Results Summary:
@@ -40,7 +40,7 @@ To analyze a suspicious email and identify signs of phishing by examining email 
 
 ---
 
-## 🖼Full Email Body (Visual Reference)
+## Full Email Body (Visual Reference)
 
 To maintain formatting integrity, the phishing email body is provided below as an image:
 
