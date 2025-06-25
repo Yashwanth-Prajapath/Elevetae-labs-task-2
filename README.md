@@ -70,7 +70,7 @@ This email exhibits **classic phishing traits**, including spoofed domains, susp
 
 ## Author
 
-**Darsh Chatrani**  
+**Yashwanth Prajapath**  
 🔗 [LinkedIn](https://www.linkedin.com/in/yashwanth-prajapath-90a065303/)  
 📞 Contact: +91 73958 52057
 
